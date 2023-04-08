@@ -8,14 +8,14 @@ int main() {
     scanf("%d", &num2);
     
     printf("The integer part of dividing %d by %d: %d\n", num1, num2, num1 / num2);
-    //ціла частина від ділення 1-го числа на 2-ге
+    //С†С–Р»Р° С‡Р°СЃС‚РёРЅР° РІС–Рґ РґС–Р»РµРЅРЅСЏ 1-РіРѕ С‡РёСЃР»Р° РЅР° 2-РіРµ
     int sum_of_squares = num1 * num1 + num2 * num2;
     printf("Sum of squares %d and %d: %d\n", num1, num2, sum_of_squares);
-    //сума квадратів двох чисел
+    //СЃСѓРјР° РєРІР°РґСЂР°С‚С–РІ РґРІРѕС… С‡РёСЃРµР»
     int sum = num1 + num2;
     int diff = num1 - num2;
     int product = sum * diff;
     printf("The product of the sum and the difference %d", product);
-    //добуток суми і різниці 1 та 2 числа
+    //РґРѕР±СѓС‚РѕРє СЃСѓРјРё С– СЂС–Р·РЅРёС†С– 1 С‚Р° 2 С‡РёСЃР»Р°
     return 0;
 }   
